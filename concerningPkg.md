@@ -3,7 +3,7 @@
 ```
 AUTHOR  : Ryan Anderson
 DATE    : 06-22-2020
-PURPOSE : An easy guide to making packages in `Julia`.
+PURPOSE : An easy guide to making/using packages in `Julia`.
 ```
 
 ## Transforming a project to a package
