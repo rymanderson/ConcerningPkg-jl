@@ -96,6 +96,23 @@ test = ["PyPlot", "JLD", "Test"]
 
 Voila! You should now have a functional package which you can add to your `julia` environment.
 
+## Importing Your Package
+
+When you are ready to import your package, enter the package manager in the REPL and run:
+
+```julia
+]
+activate path/to/your/package
+```
+
+to tell Julia which `Manifest.toml` file to use. Then, while still in the package manager, run
+
+```julia
+instantiate
+```
+
+to get the package versions called for your package.
+
 ## Build
 
 This is useful if you need to build any non-julia code into your package.
